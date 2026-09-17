@@ -1,16 +1,16 @@
 {
   "schema": 2,
-  "artifact": "prebuilt/builds/4ff829ec2e2f-bf7ebc4bc9e2/llama-server.tar.gz",
+  "artifact": "prebuilt/builds/4ff829ec2e2f-15479596a74a/llama-server.tar.gz",
   "parts": [
     {
-      "path": "prebuilt/builds/4ff829ec2e2f-bf7ebc4bc9e2/llama-server.tar.gz",
+      "path": "prebuilt/builds/4ff829ec2e2f-15479596a74a/llama-server.tar.gz",
       "size": 77313890,
-      "sha256": "bf7ebc4bc9e2f6b926634302e157f394ae63b278ac44d9de39693ce00e403d28",
+      "sha256": "15479596a74a0ba30cda56f931348355d4febca97df9316344b2469954e51dc3",
       "index": 1
     }
   ],
   "size": 77313890,
-  "sha256": "bf7ebc4bc9e2f6b926634302e157f394ae63b278ac44d9de39693ce00e403d28",
+  "sha256": "15479596a74a0ba30cda56f931348355d4febca97df9316344b2469954e51dc3",
   "server": "llama-server",
   "source_commit": "4ff829ec2e2f526aa6afba529eebbfb3ef1f95ec",
   "cuda_architectures": "75",
@@ -19,9 +19,9 @@
   "no_vmm": true,
   "nccl": true,
   "mode": "CACHED_BUILD",
-  "built_at": 1789643828,
-  "build_id": "4ff829ec2e2f-bf7ebc4bc9e2",
-  "build_dir": "prebuilt/builds/4ff829ec2e2f-bf7ebc4bc9e2",
+  "built_at": 1789643928,
+  "build_id": "4ff829ec2e2f-15479596a74a",
+  "build_dir": "prebuilt/builds/4ff829ec2e2f-15479596a74a",
   "part_size": 94371840,
   "part_count": 1
 }
