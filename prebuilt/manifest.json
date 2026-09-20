@@ -1,0 +1,44 @@
+{
+  "schema": 2,
+  "artifact": "prebuilt/builds/08b61bb0f411b7951f1a387b1c4e36decb931a32f4a520648e8cb8643a40028d/llama-server.tar.gz",
+  "parts": [
+    {
+      "path": "prebuilt/builds/08b61bb0f411b7951f1a387b1c4e36decb931a32f4a520648e8cb8643a40028d/llama-server.tar.gz",
+      "size": 77334502,
+      "sha256": "72431b5d6323b2c38083dd31e0f5559e066abb0d8db457193f8adf742798457e",
+      "index": 1
+    }
+  ],
+  "size": 77334502,
+  "sha256": "72431b5d6323b2c38083dd31e0f5559e066abb0d8db457193f8adf742798457e",
+  "server": "llama-server",
+  "source_commit": "f072b103714dfa1eee531f80b24512faf38e3dd2",
+  "cuda_architectures": "75",
+  "flash_attention": true,
+  "fa_quants": "q4_0-q4_0;q4_0-q8_0;q8_0-q4_0;q8_0-q8_0",
+  "no_vmm": true,
+  "nccl": true,
+  "mode": "FA_ALL_Q4Q8_NO_VMM_GRAPHS_NCCL",
+  "built_at": 1789874611,
+  "build_id": "08b61bb0f411b7951f1a387b1c4e36decb931a32f4a520648e8cb8643a40028d",
+  "build_fingerprint": "08b61bb0f411b7951f1a387b1c4e36decb931a32f4a520648e8cb8643a40028d",
+  "build_signature": {
+    "source_commit": "f072b103714dfa1eee531f80b24512faf38e3dd2",
+    "server_sha256": "dec5379c169de1fd3ffdfd0b166e3b55bc6846e9bcf9a7ae302500bab4745d3a",
+    "cuda_architectures": "75",
+    "flash_attention": true,
+    "fa_quants": "q4_0-q4_0;q4_0-q8_0;q8_0-q4_0;q8_0-q8_0",
+    "fa_kv_combinations": [
+      "q4_0-q4_0",
+      "q4_0-q8_0",
+      "q8_0-q4_0",
+      "q8_0-q8_0"
+    ],
+    "no_vmm": true,
+    "nccl": true
+  },
+  "marker": "prebuilt/builds/08b61bb0f411b7951f1a387b1c4e36decb931a32f4a520648e8cb8643a40028d/build-marker.json",
+  "build_dir": "prebuilt/builds/08b61bb0f411b7951f1a387b1c4e36decb931a32f4a520648e8cb8643a40028d",
+  "part_size": 94371840,
+  "part_count": 1
+}
