@@ -1,0 +1,82 @@
+{
+  "binaries": {
+    "llama-bench": {
+      "chunk_size_bytes": 33554432,
+      "parts": [
+        {
+          "index": 0,
+          "path": "artifacts/4a9ebeeed212f745af22fb8a763928c18625e219286b71cd7260b74e8763266b/chunks/llama-bench/part-0000-of-0003",
+          "sha256": "35324059ca5c3d4e0699fe17d3b13200aa87c4f168a58d2ddd39a0d3f089ab35",
+          "size_bytes": 33554432
+        },
+        {
+          "index": 1,
+          "path": "artifacts/4a9ebeeed212f745af22fb8a763928c18625e219286b71cd7260b74e8763266b/chunks/llama-bench/part-0001-of-0003",
+          "sha256": "cf2f1fd956f3c5485d2b040fb2253c091fc4735b7105670c1f5c9e51b17147af",
+          "size_bytes": 33554432
+        },
+        {
+          "index": 2,
+          "path": "artifacts/4a9ebeeed212f745af22fb8a763928c18625e219286b71cd7260b74e8763266b/chunks/llama-bench/part-0002-of-0003",
+          "sha256": "52d2ed5d47507162c714a899ba7a3017b8a4978e3c35ff6abc3a808973eeb527",
+          "size_bytes": 5149192
+        }
+      ],
+      "sha256": "338201cda5408b589d850d0cfa6e7a953545200c73b534400e93b2d6266bf0be",
+      "size_bytes": 72258056
+    },
+    "llama-cli": {
+      "chunk_size_bytes": 33554432,
+      "parts": [
+        {
+          "index": 0,
+          "path": "artifacts/4a9ebeeed212f745af22fb8a763928c18625e219286b71cd7260b74e8763266b/chunks/llama-cli/part-0000-of-0003",
+          "sha256": "b4b3d795a7b654012a378f41ad238bca8897ce6753dfa130fa211302d8d74f34",
+          "size_bytes": 33554432
+        },
+        {
+          "index": 1,
+          "path": "artifacts/4a9ebeeed212f745af22fb8a763928c18625e219286b71cd7260b74e8763266b/chunks/llama-cli/part-0001-of-0003",
+          "sha256": "649b2452ae535f1fe2d3105f18337b8eadc68e3ed9f1829ac82d90992e5c9ca8",
+          "size_bytes": 33554432
+        },
+        {
+          "index": 2,
+          "path": "artifacts/4a9ebeeed212f745af22fb8a763928c18625e219286b71cd7260b74e8763266b/chunks/llama-cli/part-0002-of-0003",
+          "sha256": "8609c8c7aee5f28b41e5dccb271ac3d0f22cd4642cad24b1166d08505ef1d9e3",
+          "size_bytes": 12136968
+        }
+      ],
+      "sha256": "07fedaa1801de9820f088ac57e30559db95b2895a095aa4437429d4edd93b973",
+      "size_bytes": 79245832
+    },
+    "llama-server": {
+      "chunk_size_bytes": 33554432,
+      "parts": [
+        {
+          "index": 0,
+          "path": "artifacts/4a9ebeeed212f745af22fb8a763928c18625e219286b71cd7260b74e8763266b/chunks/llama-server/part-0000-of-0003",
+          "sha256": "c7a1560f772b2e2328a3859c32db852dc713e82b2f50f57f1859b69e2063b6c3",
+          "size_bytes": 33554432
+        },
+        {
+          "index": 1,
+          "path": "artifacts/4a9ebeeed212f745af22fb8a763928c18625e219286b71cd7260b74e8763266b/chunks/llama-server/part-0001-of-0003",
+          "sha256": "1e20b16b3098eb1c1851a90c27931de1c70ebb06b392e4c2cbb9eb664d4ec6b3",
+          "size_bytes": 33554432
+        },
+        {
+          "index": 2,
+          "path": "artifacts/4a9ebeeed212f745af22fb8a763928c18625e219286b71cd7260b74e8763266b/chunks/llama-server/part-0002-of-0003",
+          "sha256": "7478e05aca661ceb0afc5a374c027d3e8cecbe7a8ffc185ef4293d11d9ae8b29",
+          "size_bytes": 11933384
+        }
+      ],
+      "sha256": "83fcf5ac369aa1b7c8cd1905f83a7b6008cde1b4f5bbeebba27e2f3d532387df",
+      "size_bytes": 79042248
+    }
+  },
+  "chunk_size_bytes": 33554432,
+  "fingerprint": "4a9ebeeed212f745af22fb8a763928c18625e219286b71cd7260b74e8763266b",
+  "schema_version": 3
+}
