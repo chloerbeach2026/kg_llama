@@ -1,21 +1,123 @@
 {
-  "binaries": {
-    "llama-bench": {
-      "sha256": "338201cda5408b589d850d0cfa6e7a953545200c73b534400e93b2d6266bf0be",
-      "size_bytes": 72258056
-    },
-    "llama-cli": {
-      "sha256": "07fedaa1801de9820f088ac57e30559db95b2895a095aa4437429d4edd93b973",
-      "size_bytes": 79245832
-    },
-    "llama-server": {
-      "sha256": "83fcf5ac369aa1b7c8cd1905f83a7b6008cde1b4f5bbeebba27e2f3d532387df",
-      "size_bytes": 79042248
+  "schema_version": 1,
+  "fingerprint": "4a9ebeeed212f745af22fb8a763928c18625e219286b71cd7260b74e8763266b",
+  "fingerprint_parts": {
+    "schema": 1,
+    "abi": "x86_64",
+    "libc": "glibc-2.35",
+    "cpus": "Intel(R) Xeon(R) CPU @ 2.00GHz",
+    "simd": [
+      "avx",
+      "avx2",
+      "avx512f",
+      "f16c",
+      "fma",
+      "sse4_2"
+    ],
+    "gcc_major": "11.4.0",
+    "compiler_family": "g++",
+    "cuda_toolkit": "12.8",
+    "cuda_archs": [
+      "75"
+    ],
+    "gpus": [
+      [
+        "Tesla T4",
+        "7.5",
+        15360
+      ]
+    ],
+    "build_params": {
+      "cmake_build_type": "Release",
+      "build_shared_libs": "OFF",
+      "ggml_cuda": "ON",
+      "ggml_native": "ON",
+      "ggml_openmp": "ON",
+      "ggml_blas": "OFF",
+      "llama_curl": "OFF",
+      "targets": [
+        "llama-server",
+        "llama-cli",
+        "llama-bench"
+      ]
     }
   },
+  "hardware": {
+    "schema_version": 1,
+    "host": {
+      "kernel": "6.18.48+",
+      "machine": "x86_64",
+      "libc": "glibc-2.35",
+      "distribution": "Ubuntu 22.04.5 LTS",
+      "container_hint": "docker"
+    },
+    "cpu": {
+      "model": "Intel(R) Xeon(R) CPU @ 2.00GHz",
+      "logical_cpus": 4,
+      "affinity_cpus": 4,
+      "simd": [
+        "avx",
+        "avx2",
+        "avx512f",
+        "f16c",
+        "fma",
+        "sse4_2"
+      ]
+    },
+    "memory": {
+      "total_mib": 32099
+    },
+    "gpus": [
+      {
+        "index": 0,
+        "name": "Tesla T4",
+        "memory_total_mib": 15360,
+        "driver_version": "580.178.04",
+        "compute_cap": "7.5"
+      },
+      {
+        "index": 1,
+        "name": "Tesla T4",
+        "memory_total_mib": 15360,
+        "driver_version": "580.178.04",
+        "compute_cap": "7.5"
+      }
+    ],
+    "gpu_count": 2,
+    "cuda": {
+      "toolkit_version": "12.8",
+      "driver_version": "580.178.04",
+      "architectures": [
+        "75"
+      ]
+    },
+    "compiler": {
+      "family": "g++",
+      "gcc_major": "11.4.0",
+      "cmake": true
+    },
+    "build_params": {
+      "cmake_build_type": "Release",
+      "build_shared_libs": "OFF",
+      "ggml_cuda": "ON",
+      "ggml_native": "ON",
+      "ggml_openmp": "ON",
+      "ggml_blas": "OFF",
+      "llama_curl": "OFF",
+      "targets": [
+        "llama-server",
+        "llama-cli",
+        "llama-bench"
+      ]
+    },
+    "fingerprint": "4a9ebeeed212f745af22fb8a763928c18625e219286b71cd7260b74e8763266b",
+    "fingerprint_short": "4a9ebeeed212f745"
+  },
+  "source": {
+    "repo": "https://github.com/z-lab/llama.cpp-fork.git",
+    "commit": "64f765f5adefa4620dddda436ce56f1430435536"
+  },
   "build": {
-    "built_at_utc": "2026-10-04T19:13:19Z",
-    "cmake": "cmake version 3.31.10",
     "cmake_args": [
       "cmake",
       "-S",
@@ -33,128 +135,26 @@
       "-DCUDAToolkit_ROOT=/usr/local/cuda-12.8",
       "-DCMAKE_CUDA_COMPILER=/usr/local/cuda-12.8/bin/nvcc"
     ],
+    "cuda_toolkit": "12.8",
+    "cuda_root": "/usr/local/cuda-12.8",
     "cuda_architectures": [
       "75"
     ],
-    "cuda_root": "/usr/local/cuda-12.8",
-    "cuda_toolkit": "12.8"
+    "cmake": "cmake version 3.31.10",
+    "built_at_utc": "2026-10-04T19:30:15Z"
   },
-  "fingerprint": "4a9ebeeed212f745af22fb8a763928c18625e219286b71cd7260b74e8763266b",
-  "fingerprint_parts": {
-    "abi": "x86_64",
-    "build_params": {
-      "build_shared_libs": "OFF",
-      "cmake_build_type": "Release",
-      "ggml_blas": "OFF",
-      "ggml_cuda": "ON",
-      "ggml_native": "ON",
-      "ggml_openmp": "ON",
-      "llama_curl": "OFF",
-      "targets": [
-        "llama-server",
-        "llama-cli",
-        "llama-bench"
-      ]
+  "binaries": {
+    "llama-server": {
+      "size_bytes": 79042248,
+      "sha256": "83fcf5ac369aa1b7c8cd1905f83a7b6008cde1b4f5bbeebba27e2f3d532387df"
     },
-    "compiler_family": "g++",
-    "cpus": "Intel(R) Xeon(R) CPU @ 2.00GHz",
-    "cuda_archs": [
-      "75"
-    ],
-    "cuda_toolkit": "12.8",
-    "gcc_major": "11.4.0",
-    "gpus": [
-      [
-        "Tesla T4",
-        "7.5",
-        15360
-      ]
-    ],
-    "libc": "glibc-2.35",
-    "schema": 1,
-    "simd": [
-      "avx",
-      "avx2",
-      "avx512f",
-      "f16c",
-      "fma",
-      "sse4_2"
-    ]
-  },
-  "hardware": {
-    "build_params": {
-      "build_shared_libs": "OFF",
-      "cmake_build_type": "Release",
-      "ggml_blas": "OFF",
-      "ggml_cuda": "ON",
-      "ggml_native": "ON",
-      "ggml_openmp": "ON",
-      "llama_curl": "OFF",
-      "targets": [
-        "llama-server",
-        "llama-cli",
-        "llama-bench"
-      ]
+    "llama-cli": {
+      "size_bytes": 79245832,
+      "sha256": "07fedaa1801de9820f088ac57e30559db95b2895a095aa4437429d4edd93b973"
     },
-    "compiler": {
-      "cmake": true,
-      "family": "g++",
-      "gcc_major": "11.4.0"
-    },
-    "cpu": {
-      "affinity_cpus": 4,
-      "logical_cpus": 4,
-      "model": "Intel(R) Xeon(R) CPU @ 2.00GHz",
-      "simd": [
-        "avx",
-        "avx2",
-        "avx512f",
-        "f16c",
-        "fma",
-        "sse4_2"
-      ]
-    },
-    "cuda": {
-      "architectures": [
-        "75"
-      ],
-      "driver_version": "580.178.04",
-      "toolkit_version": "12.8"
-    },
-    "fingerprint": "4a9ebeeed212f745af22fb8a763928c18625e219286b71cd7260b74e8763266b",
-    "fingerprint_short": "4a9ebeeed212f745",
-    "gpu_count": 2,
-    "gpus": [
-      {
-        "compute_cap": "7.5",
-        "driver_version": "580.178.04",
-        "index": 0,
-        "memory_total_mib": 15360,
-        "name": "Tesla T4"
-      },
-      {
-        "compute_cap": "7.5",
-        "driver_version": "580.178.04",
-        "index": 1,
-        "memory_total_mib": 15360,
-        "name": "Tesla T4"
-      }
-    ],
-    "host": {
-      "container_hint": "docker",
-      "distribution": "Ubuntu 22.04.5 LTS",
-      "kernel": "6.18.48+",
-      "libc": "glibc-2.35",
-      "machine": "x86_64"
-    },
-    "memory": {
-      "total_mib": 32099
-    },
-    "schema_version": 1
-  },
-  "schema_version": 1,
-  "source": {
-    "commit": "64f765f5adefa4620dddda436ce56f1430435536",
-    "repo": "https://github.com/z-lab/llama.cpp-fork.git"
+    "llama-bench": {
+      "size_bytes": 72258056,
+      "sha256": "338201cda5408b589d850d0cfa6e7a953545200c73b534400e93b2d6266bf0be"
+    }
   }
 }
