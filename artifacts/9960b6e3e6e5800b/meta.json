@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "fingerprint": "9960b6e3e6e5800b5cccc94d0ebfca1b536e906953d1c1ea0efe3ab6a9f0502d",
+  "fingerprint_parts": {
+    "schema": 1,
+    "abi": "x86_64",
+    "libc": "glibc-2.39",
+    "cpus": "Intel(R) Xeon(R) CPU @ 2.00GHz",
+    "simd": [
+      "avx",
+      "avx2",
+      "avx512f",
+      "f16c",
+      "fma",
+      "sse4_2"
+    ],
+    "gcc_major": "13.3.0",
+    "compiler_family": "g++",
+    "cuda_toolkit": "12.8",
+    "cuda_archs": [
+      "75"
+    ],
+    "gpus": [
+      [
+        "Tesla T4",
+        "7.5",
+        15360
+      ]
+    ],
+    "build_params": {
+      "cmake_build_type": "Release",
+      "build_shared_libs": "OFF",
+      "ggml_cuda": "ON",
+      "ggml_native": "ON",
+      "ggml_openmp": "ON",
+      "ggml_blas": "OFF",
+      "llama_curl": "OFF",
+      "targets": [
+        "llama-server",
+        "llama-cli",
+        "llama-bench"
+      ]
+    }
+  },
+  "hardware": {
+    "schema_version": 1,
+    "host": {
+      "kernel": "6.18.48+",
+      "machine": "x86_64",
+      "libc": "glibc-2.39",
+      "distribution": "Ubuntu 24.04.1 LTS",
+      "container_hint": "docker"
+    },
+    "cpu": {
+      "model": "Intel(R) Xeon(R) CPU @ 2.00GHz",
+      "logical_cpus": 4,
+      "affinity_cpus": 4,
+      "simd": [
+        "avx",
+        "avx2",
+        "avx512f",
+        "f16c",
+        "fma",
+        "sse4_2"
+      ]
+    },
+    "memory": {
+      "total_mib": 32099
+    },
+    "gpus": [
+      {
+        "index": 0,
+        "name": "Tesla T4",
+        "memory_total_mib": 15360,
+        "driver_version": "580.178.04",
+        "compute_cap": "7.5"
+      },
+      {
+        "index": 1,
+        "name": "Tesla T4",
+        "memory_total_mib": 15360,
+        "driver_version": "580.178.04",
+        "compute_cap": "7.5"
+      }
+    ],
+    "gpu_count": 2,
+    "cuda": {
+      "toolkit_version": "12.8",
+      "driver_version": "580.178.04",
+      "architectures": [
+        "75"
+      ]
+    },
+    "compiler": {
+      "family": "g++",
+      "gcc_major": "13.3.0",
+      "cmake": true
+    },
+    "build_params": {
+      "cmake_build_type": "Release",
+      "build_shared_libs": "OFF",
+      "ggml_cuda": "ON",
+      "ggml_native": "ON",
+      "ggml_openmp": "ON",
+      "ggml_blas": "OFF",
+      "llama_curl": "OFF",
+      "targets": [
+        "llama-server",
+        "llama-cli",
+        "llama-bench"
+      ]
+    },
+    "fingerprint": "9960b6e3e6e5800b5cccc94d0ebfca1b536e906953d1c1ea0efe3ab6a9f0502d",
+    "fingerprint_short": "9960b6e3e6e5800b"
+  },
+  "source": {
+    "repo": "https://github.com/z-lab/llama.cpp-fork.git",
+    "commit": "64f765f5adefa4620dddda436ce56f1430435536"
+  },
+  "build": {
+    "cmake_args": [
+      "cmake",
+      "-S",
+      "/kaggle/temp/llama.cpp",
+      "-B",
+      "/kaggle/temp/llama-build",
+      "-DCMAKE_BUILD_TYPE=Release",
+      "-DBUILD_SHARED_LIBS=OFF",
+      "-DGGML_CUDA=ON",
+      "-DGGML_NATIVE=ON",
+      "-DGGML_OPENMP=ON",
+      "-DGGML_BLAS=OFF",
+      "-DLLAMA_CURL=OFF",
+      "-DCMAKE_CUDA_ARCHITECTURES=75",
+      "-DCUDAToolkit_ROOT=/usr/local/cuda-12.8",
+      "-DCMAKE_CUDA_COMPILER=/usr/local/cuda-12.8/bin/nvcc"
+    ],
+    "cuda_toolkit": "12.8",
+    "cuda_root": "/usr/local/cuda-12.8",
+    "cuda_architectures": [
+      "75"
+    ],
+    "cmake": "cmake version 3.31.10",
+    "built_at_utc": "2026-10-05T11:29:57Z"
+  },
+  "binaries": {
+    "llama-server": {
+      "size_bytes": 78877032,
+      "sha256": "f86ecc4db65a705d6b03770d61910f56d6447665c2754dff475a18fb7f5f11a3"
+    },
+    "llama-cli": {
+      "size_bytes": 79067224,
+      "sha256": "eee4aa824b43b8d11b6e09a68208d84e229e7cbda3a717ab831e599363f81ffa"
+    },
+    "llama-bench": {
+      "size_bytes": 71869488,
+      "sha256": "0079b764ca4f5717e378ffd2d768634cefc36a2dce01416345c8211675d9ed58"
+    }
+  }
+}
