@@ -1,0 +1,12 @@
+{
+  "schema": 2,
+  "entries": {
+    "1a13fca674c48cda580605b4bedb9256c8708c438ce6a4764bc21afd787749c4": {
+      "build_fingerprint": "d2d3193fcce55d71b0e0b233e1e77f2ba6dae1780d82215a7c962e2e220283a8",
+      "manifest": "manifests/llama-d2d3193fcce55d71b0e0b233e1e77f2ba6dae1780d82215a7c962e2e220283a8.tar.gz.json",
+      "artifact": "artifacts/llama-d2d3193fcce55d71b0e0b233e1e77f2ba6dae1780d82215a7c962e2e220283a8",
+      "archive_sha256": "752e2c6b56634e872741acc78b28975ebf83301ead06414bba7ce0602fd16804",
+      "updated": "2026-10-12T10:37:26.784586+00:00"
+    }
+  }
+}
