@@ -7,6 +7,13 @@
       "artifact": "artifacts/llama-d2d3193fcce55d71b0e0b233e1e77f2ba6dae1780d82215a7c962e2e220283a8",
       "archive_sha256": "933562a0e19d2239d16e7d87542bbccb0421753aed182d2dce923a807d62d51d",
       "updated": "2026-10-12T12:31:16.506166+00:00"
+    },
+    "3561dfdce914f740542c520c4d827c77bd02cf490f70d06aeb9e6f79eec365cd": {
+      "build_fingerprint": "e8474309daf4aa8a11def49642d14f5afd9c81ac708791cd9f3757d7553bbb48",
+      "manifest": "manifests/llama-e8474309daf4aa8a11def49642d14f5afd9c81ac708791cd9f3757d7553bbb48.tar.gz.json",
+      "artifact": "artifacts/llama-e8474309daf4aa8a11def49642d14f5afd9c81ac708791cd9f3757d7553bbb48",
+      "archive_sha256": "e80948ef3c54c525de7f988f48f815dfd29586a6c3fb48cde757b51512f7cd2a",
+      "updated": "2026-10-17T04:56:24.611107+00:00"
     }
   }
 }
