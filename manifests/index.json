@@ -27,7 +27,7 @@
       "manifest": "manifests/llama-6492f6a916fc99f8c75dfa85601580905ace88c0c5698dcde6475c70f919b76b.tar.gz.json",
       "artifact": "artifacts/llama-6492f6a916fc99f8c75dfa85601580905ace88c0c5698dcde6475c70f919b76b",
       "archive_sha256": "123cb5b3fe8621da3ba7f206abf05ea0cd0f6859ab16e3ad823c5bc87eff7d53",
-      "updated": "2026-10-19T07:13:47.159759+00:00"
+      "updated": "2026-10-19T07:32:28.105846+00:00"
     }
   }
 }
