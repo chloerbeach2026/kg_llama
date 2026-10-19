@@ -26,8 +26,8 @@
       "build_fingerprint": "6492f6a916fc99f8c75dfa85601580905ace88c0c5698dcde6475c70f919b76b",
       "manifest": "manifests/llama-6492f6a916fc99f8c75dfa85601580905ace88c0c5698dcde6475c70f919b76b.tar.gz.json",
       "artifact": "artifacts/llama-6492f6a916fc99f8c75dfa85601580905ace88c0c5698dcde6475c70f919b76b",
-      "archive_sha256": "123cb5b3fe8621da3ba7f206abf05ea0cd0f6859ab16e3ad823c5bc87eff7d53",
-      "updated": "2026-10-19T07:32:28.105846+00:00"
+      "archive_sha256": "92c7f795b7c76f78a8850b985aeb34cd89b00d6c3587d25744d394866e53c660",
+      "updated": "2026-10-19T09:30:35.362221+00:00"
     }
   }
 }

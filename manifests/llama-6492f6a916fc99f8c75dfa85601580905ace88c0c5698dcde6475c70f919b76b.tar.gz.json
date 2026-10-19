@@ -47,7 +47,7 @@
   },
   "binary_version": "",
   "binary_hash": "c190c9d151d9b47b71e62133bc78efffc4a5255c60739edac8558e50423d6e6b",
-  "build_timestamp": "2026-10-19T07:13:44.733335+00:00",
+  "build_timestamp": "2026-10-19T09:30:21.063201+00:00",
   "build_fingerprint": "6492f6a916fc99f8c75dfa85601580905ace88c0c5698dcde6475c70f919b76b",
   "build_signature": {
     "source_repo": "ikawrakow/ik_llama.cpp",
@@ -101,16 +101,37 @@
   "artifact_path": "artifacts/llama-6492f6a916fc99f8c75dfa85601580905ace88c0c5698dcde6475c70f919b76b",
   "archive_chunk_schema": 1,
   "archive_chunk_limit_bytes": 90000000,
-  "archive_size_bytes": 7051643,
-  "archive_sha256": "123cb5b3fe8621da3ba7f206abf05ea0cd0f6859ab16e3ad823c5bc87eff7d53",
+  "archive_size_bytes": 274282820,
+  "archive_sha256": "92c7f795b7c76f78a8850b985aeb34cd89b00d6c3587d25744d394866e53c660",
   "archive_parts": [
     {
-      "path": "artifacts/llama-6492f6a916fc99f8c75dfa85601580905ace88c0c5698dcde6475c70f919b76b/part-0001-of-0001.bin",
-      "size_bytes": 7051643,
-      "sha256": "123cb5b3fe8621da3ba7f206abf05ea0cd0f6859ab16e3ad823c5bc87eff7d53",
+      "path": "artifacts/llama-6492f6a916fc99f8c75dfa85601580905ace88c0c5698dcde6475c70f919b76b/part-0001-of-0004.bin",
+      "size_bytes": 90000000,
+      "sha256": "27e051ce870b2b225581b859b5ab6eb6e6d0f9a234f33fca31b234914b2293a7",
       "part": 1,
-      "total": 1
+      "total": 4
+    },
+    {
+      "path": "artifacts/llama-6492f6a916fc99f8c75dfa85601580905ace88c0c5698dcde6475c70f919b76b/part-0002-of-0004.bin",
+      "size_bytes": 90000000,
+      "sha256": "d9f51b7cb43dc6eee7f2bfaa3c963ec6bf6100df1acf265e8eb23b69a2528a2c",
+      "part": 2,
+      "total": 4
+    },
+    {
+      "path": "artifacts/llama-6492f6a916fc99f8c75dfa85601580905ace88c0c5698dcde6475c70f919b76b/part-0003-of-0004.bin",
+      "size_bytes": 90000000,
+      "sha256": "7ee1f75ef2ea11d6cc636fae5967d93a33109cc95bb999033a48c21d3f98533f",
+      "part": 3,
+      "total": 4
+    },
+    {
+      "path": "artifacts/llama-6492f6a916fc99f8c75dfa85601580905ace88c0c5698dcde6475c70f919b76b/part-0004-of-0004.bin",
+      "size_bytes": 4282820,
+      "sha256": "8a2d65197201b584c6b4b540a6584f441224431211c6aa107ef54dd36c13f698",
+      "part": 4,
+      "total": 4
     }
   ],
-  "published_at": "2026-10-19T07:32:28.105846+00:00"
+  "published_at": "2026-10-19T09:30:35.362221+00:00"
 }
