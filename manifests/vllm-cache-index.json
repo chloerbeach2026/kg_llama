@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "entries": {
+    "b3f9f22927d1a90cefe9b4f8a773ab653c724c90847321e42e6a2aab9547cbb1": {
+      "manifest": "manifests/vllm-b3f9f22927d1a90cefe9b4f8a773ab653c724c90847321e42e6a2aab9547cbb1.json",
+      "archive_sha256": "80b1529edc3a9616de307fa598aa9d3c7874cd8e41ba466dd744f0e27ccb89d2",
+      "archive_bytes": 5950322421,
+      "published_at": "2026-10-21T10:11:07.385406+00:00"
+    }
+  }
+}
