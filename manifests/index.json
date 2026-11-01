@@ -28,6 +28,13 @@
       "artifact": "artifacts/llama-6492f6a916fc99f8c75dfa85601580905ace88c0c5698dcde6475c70f919b76b",
       "archive_sha256": "92c7f795b7c76f78a8850b985aeb34cd89b00d6c3587d25744d394866e53c660",
       "updated": "2026-10-19T09:30:35.362221+00:00"
+    },
+    "43b2883c301999c60a96b614e4f28ae91df7bd3d5a48ce46821e6c4187160a43": {
+      "build_fingerprint": "f4cad667926e4195986de2e469e68e005d3af9cae47ea6a3a2cc8527c7b349d5",
+      "manifest": "manifests/llama-f4cad667926e4195986de2e469e68e005d3af9cae47ea6a3a2cc8527c7b349d5.tar.gz.json",
+      "artifact": "artifacts/llama-f4cad667926e4195986de2e469e68e005d3af9cae47ea6a3a2cc8527c7b349d5",
+      "archive_sha256": "981a23d609d27420c060a67c651caf1d4adb7d4d1bc1272b42399e1fbf5b3851",
+      "updated": "2026-11-01T14:21:31.012640+00:00"
     }
   }
 }
